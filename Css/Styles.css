@@ -1,0 +1,465 @@
+body {
+    font-family: Roboto, Geneva, Kailasa;
+}
+
+*{
+    margin: auto;
+}
+.Header{
+    background-image: url("/img/dark_tint.png"), url("../img/bokeh_car_lights_bg.jpg");
+    background-size: 1440px;
+    height 700px;
+}
+nav.Nav{
+    position: absolute;
+    right: 12px;
+    top: 15px;
+}
+li{
+    display: inline-block;
+}
+.Header1InHeader {
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+}
+a.Header1InHeader:hover{
+    text-decoration: underline;
+    color: #6fc6ff;
+    transition: color 1s;
+}
+.Tools_Bar_ul{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.Header2InHeader{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+    color: white;
+}
+.Tools_bar{
+    margin-right: 30px;
+}
+li>a{
+    text-decoration: none;
+    color: gray;
+}
+a.Tools_Hover:hover{
+    color: snow;
+    transition: color 1s;
+}
+.PInHeader{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+}
+.btn{
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 30px;
+}
+.blue{
+    background-color: #3cadd4;
+}
+.blue:hover{
+    background-color: #6fc6ff;
+    transition: background-color 1s;
+}
+.buttons{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.Sign{
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.Sign1 {
+    color: white;
+    text-decoration: none;
+}
+.Sign_Up{
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+a.Sign_Up:hover{
+    color: gray;
+    transition color: 1s;
+}
+.Header1{
+    font-size: 45px;
+    color: #474747;
+    text-align: center;
+    padding: 65px;
+}
+.P1{
+    font-size: 22px;
+    color: #858585;
+    text-align: center;
+    position: relative;
+    top: -55px;
+    margin-bottom: 12px;
+}
+div.Facilities{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #858585;
+}
+div.Boxes{
+    margin: -10px;
+    padding: 133px;
+    position: relative;
+    top: -140px;
+    margin-bottom: -180px;
+}
+.Box1{
+    width: 360px;
+    height: 330px;
+    border: solid rgba(144, 144, 144, .25) 1px;
+    float: left;
+    background-color: white;
+}
+.Box2{
+    width: 360px;
+    height: 330px;
+     border: solid rgba(144, 144, 144, .25) 1px;
+    background-color: white;
+}
+.Box3{
+    width: 360px;
+    height: 330px;
+      border: solid rgba(144, 144, 144, .25) 1px;
+    float: right;
+    position: relative;
+    bottom: 332px;
+    background-color: white;
+}
+.img1{
+    width: 130px;
+    height: 130px;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+.img2{
+    width: 130px;
+    height: 120px;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+.img3{
+    width: 150px;
+    height:130px;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+.Head_In_Box1{
+    color: #858585;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}.Head_In_Box2{
+    color: #858585;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Head_In_Box3{
+    color: #858585;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+ .p1_In_box{
+     color: #444;
+     text-align: center;
+     font-size: 15;
+     margin-top: 20px;
+     width: 330px;
+     line-height: 30px;
+ } .p2_In_box{
+     color: #444;
+     text-align: center;
+     font-size: 15px;
+     margin-top: 20px;
+     width: 330px;
+     line-height: 30px;
+ } .p3_In_box{
+     color: #444;
+     text-align: center;
+     font-size: 15px;
+     margin-top: 20px;
+     width: 330px;
+     line-height: 30px;
+ }
+.Header_In_Part3{
+    display: inline-block;
+    position: relative;
+    left: 460px;
+    color: #474747;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+}
+.P_In_Part3 {
+    display: inline-block;
+    color: #858585;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+    margin-top: 15px;
+    border-bottom: #9e9e9e solid 1px;
+    padding-bottom: 70px;
+}
+.members{
+    position: absolute;
+    padding-top: 15px;
+
+}
+.Member_Img1{
+    border-radius: 50px;
+    position: relative;
+    top: 60px;
+    left: 140px;
+    margin: 45px;
+}
+.Member_Img2{
+    border-radius: 50px;
+    position: relative;
+    top: -185px;
+    left: 390px;
+    margin: 70px;
+}
+.Member_Img3{
+    border-radius: 50px;
+    position: relative;
+    top: -478px;
+    left: 640px;
+    margin: 95px;
+}
+.Member_Img4{
+    border-radius: 50px;
+    position: relative;
+    top: -822px;
+    left: 890px;
+    margin: 120px;
+}
+.Img_Head1{
+    color: #474747;
+    position: relative;
+    left: 285px;
+    bottom: 65px;
+    font-size: 16px;
+}
+.Img_Head2{
+    color: #474747;
+    position: relative;
+    left: 553px;
+    bottom: 333px;
+    font-size: 16px;
+}
+.Img_Head3{
+    color: #474747;
+    position: relative;
+    left: 830px;
+    bottom: 651px;
+    font-size: 16px;
+}
+.Img_Head4{
+    color: #474747;
+    position: relative;
+    left: 1102px;
+    bottom: 1020px;
+    font-size: 16px;
+}
+.Img_P1{
+    color: #858585;
+    line-height: 10px;
+    position: relative;
+    left: 280px;
+    top: -55px;
+    font-size: 16px;
+}
+.Img_P2{
+    color: #858585;
+    line-height: 10px;
+    position: relative;
+    left: 562px;
+    top: -322px;
+    font-size: 16px;
+}
+.Img_P3{
+    color: #858585;
+    line-height: 10px;
+    position: relative;
+    left: 829px;
+    top: -641px;
+    font-size: 16px;
+}
+.Img_P4{
+    color: #858585;
+    line-height: 10px;
+    position: relative;
+    left: 1103px;
+    top: -1009px;
+    font-size: 16px;
+}
+ .P_In_Comment{
+     text-align: center;
+     font-size: 15px;
+     margin-top: 10px;
+     width: 541px;
+     color: #858585;
+ }
+ .Form{
+     background-color: #3cadd4;
+ }
+ .Header_In_Form{
+     color: white;
+     font-size: 40px;
+     text-align: center;
+     padding-top: 90px;
+ }
+ .P_In_Form {
+     color: white;
+     text-align: center;
+     font-size: 22px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .Message{
+     background-color: #3cadd4;
+ }
+ input[type=text]{
+     border-radius: 5px;
+     border: #3cadd4 solid 1px;
+     position: relative;
+     left: 441px;
+     bottom: 110px;
+     font-size: 15px;
+     width: 265px;
+     height: 35px;
+ }
+input[type=email]{
+     border-radius: 5px;
+     border: #3cadd4 solid 1px;
+     position: relative;
+     left: 463px;
+     bottom: 110px;
+     font-size: 15px;
+     width: 265px;
+     height: 35px;
+ }
+textarea{
+    width: 565px;
+    height: 170px;
+    border-radius: 5px;
+    border: #3cadd4 solid 1px;
+    position: relative;
+    left: -113px;
+    top: 91px;
+}
+button{
+    position: relative;
+    top: 165px;
+    right: 515px;
+    border-radius: 25px;
+    border: #3cadd4 solid 1px;
+    width: 220px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #474747;
+    color: white;
+    margin-bottom: 250px;
+}
+button:hover{
+    background-color: #615870;
+    color: white;
+    transition: background-color 1s, color 1s;
+}
+div.Footer{
+    background-color: #222222;
+    padding-bottom: 0px;
+    height: 120px;
+}
+.Header1_In_Links{
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+.Li_Footer{
+    padding: 135px 0px 80px 70px;
+    color: white;
+}
+.Footer_Img_1{
+    float: right;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: -2062px;
+    left: 1100px;
+}
+.Footer_Img_2{
+    float: right;
+    width: 45px;
+    height: 50px;
+    position: absolute;
+    bottom: -2062px;
+    left: 1150px;
+}
+.Footer_Img_3{
+   float: right;
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    bottom: -2062px;
+    left: 1190px;
+}
+.Footer_Img_4{
+    float: right;
+    width: 55px;
+    height: 65px;
+    position: absolute;
+    bottom: -2067px;
+    left: 1240px;
+}
+.A_InLi:hover{
+    color: #6fc6ff;
+    transition: color 1s;
+    text-decoration: underline;
+}
+.buttons{
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+.Ul_Footer{
+  position: relative;
+  bottom: 120px;
+}
+.p_in_Footer{
+  color: white;
+  position: relative;
+  left: 110px;
+  font-size: 18px;
+  bottom: 165px;
+}
